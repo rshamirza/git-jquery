@@ -1,0 +1,23 @@
+div.row 
+        div.four.columns
+            b type
+        div.two.columns
+            b public
+        div.two.columns
+            b actor.login
+        div.two.columns
+            b actor.id 
+        div.two.columns
+            b event.id
+each item in items
+    div.row 
+        div.four.columns
+            = item.type
+        div.two.columns
+            = item.public
+        div.two.columns
+            = item.actor.login
+        div.two.columns
+            = item.actor.id
+        div.two.columns
+            = item.id
