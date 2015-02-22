@@ -1,8 +1,25 @@
+div.row 
+        div.four.columns
+            b full_name
+        div.two.columns
+            b issues
+        div.two.columns
+            b owner
+        div.two.columns
+            b watchers 
+        div.two.columns
+            b forks
 each item in items
     div.row 
-        div.six.columns
+        div.four.columns
             a(href="#", onClick='repoView("' + item.full_name + '")')
                 = item.full_name
-        div.six.columns
+        div.two.columns
             = item.open_issues
             |  issues
+        div.two.columns
+            = item.owner.login
+        div.two.columns
+            = item.watchers
+        div.two.columns
+            = item.forks
