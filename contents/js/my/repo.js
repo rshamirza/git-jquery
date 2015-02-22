@@ -3,7 +3,7 @@ function myRepo(full_name){
     // display a particular repo of mine in #details
     // e.g., https://api.github.com/repos/doubleshow/up
 
-    console.log('viewing repo: ', full_name)
+    //console.log('viewing repo: ', full_name)
 
     // e.g., https://api.github.com/repos/ucdd2-sp15/nn-express
 

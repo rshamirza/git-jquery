@@ -2,7 +2,7 @@ function myEvents(){
     
     // display a list of events belonging to me in #list
     // e.g., https://api.github.com/users/doubleshow/events
-    console.log('listing my event')    
+    //console.log('listing my event')    
     
     $.get("https://api.github.com/users/rshamirza/events", github, function(data) {
 
@@ -20,7 +20,7 @@ function myEvents(){
             // assign the rendered html to the dom element whose id is #list
             $("#list").html(html)
             
-            $("#details").html('')
+            $("#details").html("")
 
         })
 

@@ -2,7 +2,7 @@ function myRepos(){
 
     // display a list of events belonging to me in #list
     // e.g., https://api.github.com/users/doubleshow/events
-    console.log('listing my repos')    
+    //console.log('listing my repos')    
     
     $.get("https://api.github.com/users/rshamirza/repos", github, function(data) {
 
