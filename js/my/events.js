@@ -20,7 +20,7 @@ function myEvents(){
             // assign the rendered html to the dom element whose id is #list
             $("#list").html(html)
             
-            $("#details").html("")
+            $("#details").html('')
 
         })
 
